@@ -328,6 +328,7 @@ header {
 .our-clients-logo:is(:hover, :focus) {
   fill: var(--color-hover);
   border: 2px solid var(--color-hover);
+  cursor: pointer;
 }
 
 .footer {
