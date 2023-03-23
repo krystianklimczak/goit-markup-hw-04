@@ -163,6 +163,15 @@ header {
 .advantages-item {
   width: 270px;
 }
+.advantages-icon {
+  background-color: var(--color-background-squad);
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px 100px;
+  margin-bottom: 30px;
+}
 .advantages-title {
   font-family: 'Roboto';
   font-style: normal;
@@ -255,6 +264,31 @@ header {
   color: var(--color-text-grey);
   padding-bottom: 30px;
 }
+
+.our-squad-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding-bottom: 30px;
+}
+
+.our-squad-icon-website {
+  border: 1px solid red;
+  fill: var(--color-text-grey);
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.our-squad-icon-website:is(:hover, :focus) {
+  fill: var(--color-text-white);
+  background-color: var(--color-hover);
+}
+
 .footer {
   background-color: var(--color-background-solution);
 }
