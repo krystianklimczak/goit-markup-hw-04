@@ -325,6 +325,8 @@ header {
   fill: var(--color-icons);
 }
 
+/* JAK TO CZYTASZ TO MIŁEGO DNIA */
+
 .our-clients-logo:is(:hover, :focus) {
   fill: var(--color-hover);
   border-color: var(--color-hover);
