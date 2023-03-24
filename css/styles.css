@@ -276,7 +276,7 @@ header {
 }
 
 .our-squad-icon-website {
-  fill: var(--color-text-grey);
+  fill: var(--color-icons);
   width: 44px;
   height: 44px;
   border-radius: 50%;
